@@ -6,11 +6,79 @@
     }
     header{
         width: 100%;
-        height: 500px;
+        height: 600px;
         display: block;
         float: left;
         background-color:aquamarine ;
+        background-repeat: no-repeat;
+        background-image: url(https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/10/Revolucao-francesa.jpg);
+        background-size: 1260px 600px;
     }
+
+    header .titulo{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 116px;
+        color: white;
+        padding-top: 150px;
+        padding-left: 120px;
+    }
+    * {
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:10px;
+    }
+    ul {
+        margin: 0;
+        padding:0;
+        display: block;
+        background-color: rgb(31, 28, 28);
+        height: 30px;
+        padding-top: 10px;
+        margin-top: 270px;
+       
+    }
+    ul li {
+        display: inline;
+        
+    }
+    
+    li:before {
+    content: " | ";
+    color: white;
+    height: 5px;
+    }
+    
+    li:first-child:before {
+    content: none;
+    }
+ 
+    li {
+        list-style: none; 
+        margin: 0px;
+        display: inline;
+    
+    }
+
+    li a {
+        padding: 5px 30px; 
+        margin:0;
+        border: 0px solid;
+     
+        text-decoration: none;
+        color:#FFF;
+        /* cantos arredondados */
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+    
+        
+    }
+
+    li a:hover {
+        background: #CCC;
+        color: #000; 
+        border-color: #000;
+    }
+    
     
     main{
         width: 100%;
