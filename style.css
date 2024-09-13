@@ -26,7 +26,7 @@
         font-family:Verdana, Geneva, sans-serif;
         font-size:10px;
     }
-    ul {
+     header ul {
         margin: 0;
         padding:0;
         display: block;
@@ -36,29 +36,29 @@
         margin-top: 270px;
        
     }
-    ul li {
+     header ul li {
         display: inline;
         
     }
     
-    li:before {
+    header li:before {
     content: " | ";
     color: white;
     height: 5px;
     }
     
-    li:first-child:before {
+    header:first-child:before {
     content: none;
     }
  
-    li {
+    header li {
         list-style: none; 
         margin: 0px;
         display: inline;
     
     }
 
-    li a {
+    header li a {
         padding: 5px 30px; 
         margin:0;
         border: 0px solid;
@@ -73,7 +73,7 @@
         
     }
 
-    li a:hover {
+    header li a:hover {
         background: #CCC;
         color: #000; 
         border-color: #000;
@@ -90,10 +90,40 @@
     
     footer{
             width: 100%;
-            height: 500px;
+            height: 150px;
             display: block;
             float: left;
-            background-color:rgb(241, 0, 80) ;
+            background-color: rgb(54, 51, 51) ;
     }
+
+    footer .subtitulo{
+        width: 100%;
+        height: 40px;
+        display: block;
+        background-color:rgb(31, 28, 28);
+        color: white;
+        font-size: 20px;
+    
+    }
+
+ footer a .github{
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 25px;
+ 
+}
+footer p{
+    font-size: 10px;
+    color: white;
+    margin-left: 505px;
+    padding-bottom: 5px;
+}
+footer a .conta{
+    height: 50px;
+    margin-left: 580px;
+   margin-top: -60px;
+}
+
+ 
     
     
