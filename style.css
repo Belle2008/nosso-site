@@ -19,22 +19,38 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 116px;
         color: white;
-        padding-top: 160px;
+        padding-top: 150px;
         padding-left: 120px;
     }
     * {
         font-family:Verdana, Geneva, sans-serif;
-        font-size:12px;
+        font-size:10px;
     }
     ul {
         margin: 0;
         padding:0;
         display: block;
-        background-color: gray;
-        height: 33px;
-        padding-top: 20px;
+        background-color: rgb(31, 28, 28);
+        height: 30px;
+        padding-top: 10px;
+        margin-top: 270px;
+       
+    }
+    ul li {
+        display: inline;
+        
     }
     
+    li:before {
+    content: " | ";
+    color: white;
+    height: 5px;
+    }
+    
+    li:first-child:before {
+    content: none;
+    }
+ 
     li {
         list-style: none; 
         margin: 0px;
@@ -43,10 +59,10 @@
     }
 
     li a {
-        padding: 5px 15px; 
+        padding: 5px 30px; 
         margin:0;
-        border: 0px solid #f00; 
-        background: #903;
+        border: 0px solid;
+     
         text-decoration: none;
         color:#FFF;
         /* cantos arredondados */
