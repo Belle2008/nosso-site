@@ -6,7 +6,7 @@
     }
     header{
         width: 100%;
-        height: 600px;
+        height: 458px;
         display: block;
         float: left;
         background-color:aquamarine ;
@@ -17,23 +17,23 @@
 
     header .titulo{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 116px;
+        font-size: 106px;
         color: white;
         padding-top: 150px;
-        padding-left: 120px;
+        padding-left: 158px;
     }
     * {
         font-family:Verdana, Geneva, sans-serif;
-        font-size:10px;
+        font-size:13px;
     }
      header ul {
         margin: 0;
         padding:0;
         display: block;
-        background-color: rgb(31, 28, 28);
+        background-color: rgb(85, 3, 3);
         height: 30px;
         padding-top: 10px;
-        margin-top: 270px;
+        margin-top: 140px;
        
     }
      header ul li {
@@ -58,7 +58,7 @@
     }
 
     header li a {
-        padding: 5px 30px; 
+        padding: 5px 65px; 
         margin:0;
         border: 0px solid;
      
@@ -91,17 +91,18 @@
     
     footer{
             width: 100%;
-            height: 150px;
+            height: 180px;
             display: block;
             float: left;
-            background-color: rgb(54, 51, 51) ;
+            background-color: white;
+      
     }
 
     footer .subtitulo{
         width: 100%;
-        height: 40px;
+        height: 30px;
         display: block;
-        background-color:rgb(31, 28, 28);
+        background-color: rgb(85, 3, 3);
         color: white;
         font-size: 20px;
     
@@ -109,22 +110,21 @@
 
  footer a .github{
     height: 50px;
-    margin-left: 500px;
+    margin-left: 575px;
     margin-top: 25px;
  
 }
-footer p{
-    font-size: 10px;
-    color: white;
-    margin-left: 505px;
-    padding-bottom: 5px;
-}
-footer a .conta{
-    height: 50px;
-    margin-left: 580px;
-   margin-top: -60px;
-}
 
+footer a .A{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+  
+ span .B{
+    clear: none;
+
+}
  
     
     
