@@ -37,8 +37,7 @@
        
     }
      header ul li {
-        display: inline;
-        
+        display: inline;   
     }
     
     header li:before {
@@ -82,11 +81,13 @@
     
     main{
         width: 100%;
-        height: 500px;
+        height: 900px;
         display: block;
         float: left;
         background-color:palevioletred ;
     }
+   
+    
     
     footer{
             width: 100%;
