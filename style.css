@@ -1,206 +1,233 @@
 *{
-margin: 0;
-padding: 0;
-font-family: Georgia, 'Times New Roman', Times, serif;
-
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  }
+  header{
+      width: 100%;
+      height: 500px;
+      display: block;
+      float: left;
+      background-color:aquamarine ;
+  }
+   
+  main{
+      width: 100%;
+      height: 830px;
+      display: block;
+      float: left;
+      background-color: white ;
+  }
+  .grande{
+      width: 781px;
+      height: 250px;
+      padding: 10px;
+      border: 3px solid black;
+      margin: 15px;
+             background-color: rgb(85, 3, 3);
+ 
+  }
+  main article .grande h1{
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 25px;
+      width: 801px;
+      height: 40px;
+      padding-top: 15px;
+    margin-left: -10px;
+   margin-top: -12px;
+    text-align: center;
+    background-color: black;
+  }
+   main article .grande h3{
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     font-size: 23px;
+     margin-left: 237px;
+     margin-top: -195px;
+  }
+   main article .grande p{
+      font-size: 17px;
+      text-align: left;
+      margin-left: 223px;
+      margin-top: -179px;
+      color: white;
+     
+  }
+  main article .grande .botao{
+      width: 80px;
+      height: 28px;
+     margin-left: 529px;
+     margin-top: 19px;
+  }
+   
+main article img{
+  width: 210px;
+  height: 200px;
+  margin-top: 7px;
 }
-header{
-    width: 100%;
-    height: 500px;
-    display: block;
-    float: left;
-    background-color:aquamarine ;
-}
-
-main{
-    width: 100%;
-    height: 830px;
-    display: block;
-    float: left;
-    background-color: white ;
-}
-.grande{
-    width: 781px;
-    height: 250px;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 15px;
-    background-color: white; 
-}
-main article .grande h1{
+  .primeiro{
+      width: 365px;
+      height: 474px;
+      padding: 10px;
+      border: 3px solid black;
+      margin: 15px;
+      background-color: rgb(85, 3, 3);
+  
+  }
+  main article .primeiro h1{
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 22px;
+      width: 387px;
+      height: 31px;
+    margin-left: -12px;
+   margin-top: -12px;
+   text-align: center;
+    background-color: black;
+  }
+  main article .primeiro p{
+      font-size: 18px;
+      text-align: left;
+      padding-left: -5px;
+      margin-top: 16px;
+      margin-left: 13px;
+      color: white;
+  }
+   main article .primeiro .botao{
+      width: 77px;
+      height: 25px;
+     margin-left: 281px;
+     margin-top: 17px;
+   
+   }
+   main article .primeiro .titulomenor{
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 16px;
+      width: 350px;
+      height: 22px;
+    margin-left: 8px;
+   margin-top: 20px;
+   text-align: center;
+    background-color: black;
+   }
+   main article .lista{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      margin-top: 14px;
+      margin-left: 23px;
+      color: white;
+   }
+   
+   
+  .segundo{
+      width: 365px;
+      height: 474px;
+      padding: 10px;
+      border: 3px solid black;
+     
+      background-color: rgb(85, 3, 3);
+      margin-left: 430px;
+      margin-top: -514px;
+  }
+   
+  main article .segundo h1{
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 22px;
+      width: 387px;
+      height: 31px;
+    margin-left: -12px;
+   margin-top: -12px;
+   text-align: center;
+    background-color: black;  
+  }
+  main article .segundo h3{
+      font-family: 'Times New Roman', Times, serif;
+     color: white;
+     font-size: 20px;
+     margin-left: 16px;
+     margin-top: 15px;
+  }
+  main article .segundo p{
+      font-size: 17px;
+      text-align: left;
+      padding-left: 10px;
+      margin-top: 10px;
+  }
+  main article .segundo .botao{
+      width: 77px;
+      height: 25px;
+     margin-left: 281px;
+     margin-top: 75px;
+   }
+   main article .segundo .titulomenor{
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 16px;
+      width: 350px;
+      height: 22px;
+    margin-left: 8px;
+   margin-top: 20px;
+   text-align: center;
+    background-color: black;
+   }
+   
+  aside{
+      width: 357px;
+      height: 766px;
+      padding: 10px;
+      border: 3px solid black;
+      background-color: rgb(85, 3, 3);
+      margin-left: 860px;
+      margin-top: -790px;
+  }
+   
+       
+  aside .txtBusca{
+       float:left;
+       background-color:white;
+       padding-left:5px;
+       font-style:italic;
+       font-size:18px;
+       border:none;
+       height: 32px;
+       width: 349px;     
+      }
+      aside .caixabranca{
+     width: 338px;
+     height: 300px;
+     background-color: white;
+     margin-top: 200px;
+    margin-left: 10px;
+    margin-top: 43px;
+  }
+  aside h1{
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 25px;
-    width: 801px;
-    height: 40px;
-    padding-top: 15px;
-  margin-left: -10px;
- margin-top: -12px;
-  text-align: center;
-  background-color: black;
-}
-main article .grande .quadrado{
-    background: lightblue;
-    width: 218px;
-    height: 196px;
-    margin: 15px;
-    margin-left: 2px;
-    margin-top: 19px;
-}
- main article .grande h3{
-   font-family: 'Times New Roman', Times, serif;
-   color: white;
-   font-size: 23px;
-   margin-left: 237px;
-   margin-top: -195px; 
-}
- main article .grande p{
-    font-size: 17px;
-    text-align: left;
-    margin-left: 223px;
-    margin-top: -33px;
+    width: 339px;
+    height: 34px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: -300px;
+    background-color: black;
+  }
+  aside .listamaior{
+    font-size: 25px;
+    margin-left: 5px;
+    margin top: 5px;
+  }
    
-}
-main article .grande .botao{
-    width: 80px;
-    height: 28px;
-   margin-left: 529px;
-   margin-top: 19px;
-}
-
-.primeiro{
-    width: 365px;
-    height: 474px;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 15px;
-    background-color: rgb(228, 68, 68); 
-}
-main article .primeiro h1{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-    width: 387px;
-    height: 31px;
-  margin-left: -12px;
- margin-top: -12px;
- text-align: center;
-  background-color: black; 
-}
-main article .primeiro h3{
-    font-family: 'Times New Roman', Times, serif;
-   color: white;
-   font-size: 20px;
-   margin-left: 16px;
-   margin-top: 15px; 
-}
-main article .primeiro p{
-    font-size: 17px;
-    text-align: left;
-    padding-left: 10px;
-    margin-top: 10px;
-}
- main article .primeiro .botao{
-    width: 77px;
-    height: 25px;
-   margin-left: 281px;
-   margin-top: 75px;
-
- }
- main article .primeiro .titulomenor{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 16px;
-    width: 350px;
-    height: 22px;
-  margin-left: 8px;
- margin-top: 20px;
- text-align: center;
-  background-color: black; 
- }
- main article .lista{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    margin-top: 6px;
-    margin-left: 26px;
-    text-align: justify;
- }
-
-
-.segundo{
-    width: 365px;
-    height: 474px;
-    padding: 10px;
-    border: 3px solid black;
+       
    
-    background-color: rgb(228, 68, 68); 
-    margin-left: 430px;
-    margin-top: -514px;
-}
-
-main article .segundo h1{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-    width: 387px;
-    height: 31px;
-  margin-left: -12px;
- margin-top: -12px;
- text-align: center;
-  background-color: black;   
-}
-main article .segundo h3{
-    font-family: 'Times New Roman', Times, serif;
-   color: white;
-   font-size: 20px;
-   margin-left: 16px;
-   margin-top: 15px; 
-}
-main article .segundo p{
-    font-size: 17px;
-    text-align: left;
-    padding-left: 10px;
-    margin-top: 10px;
-}
-main article .segundo .botao{
-    width: 77px;
-    height: 25px;
-   margin-left: 281px;
-   margin-top: 75px;
- }
- main article .segundo .titulomenor{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 16px;
-    width: 350px;
-    height: 22px;
-  margin-left: 8px;
- margin-top: 20px;
- text-align: center;
-  background-color: black; 
- }
-
-aside{
-    width: 357px;
-    height: 766px;
-    padding: 10px;
-    border: 3px solid black;
-   background-color: rgb(228, 68, 68); 
-    margin-left: 860px;
-    margin-top: -790px;
-}
-
-aside .busca{
-  background-color:#2F4F4F;
-  width:300px;
+  footer{
+          width: 100%;
+          height: 500px;
+          display: block;
+          float: left;
+          background-color:rgb(241, 0, 80) ;
+  }
   
-      
-}
-footer{
-        width: 100%;
-        height: 500px;
-        display: block;
-        float: left;
-        background-color:rgb(241, 0, 80) ;
-}
-
