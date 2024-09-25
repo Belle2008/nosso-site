@@ -25,13 +25,13 @@
       padding: 10px;
       border: 3px solid black;
       margin: 15px;
-             background-color: rgb(85, 3, 3);
+      background-color: rgb(85, 3, 3);
  
   }
   main article .grande h1{
       font-family: 'Times New Roman', Times, serif;
       color: white;
-      font-size: 25px;
+      font-size: 27px;
       width: 801px;
       height: 40px;
       padding-top: 15px;
@@ -58,7 +58,7 @@
   main article .grande .botao{
       width: 80px;
       height: 28px;
-     margin-left: 529px;
+     margin-left: 657px;
      margin-top: 19px;
   }
    
@@ -74,7 +74,7 @@ main article img{
       border: 3px solid black;
       margin: 15px;
       background-color: rgb(85, 3, 3);
-  
+ 
   }
   main article .primeiro h1{
       font-family: 'Times New Roman', Times, serif;
@@ -88,26 +88,26 @@ main article img{
     background-color: black;
   }
   main article .primeiro p{
-      font-size: 18px;
+      font-size: 17px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       text-align: left;
-      padding-left: -5px;
       margin-top: 16px;
-      margin-left: 13px;
+      margin-left: 18px;
       color: white;
   }
    main article .primeiro .botao{
       width: 77px;
       height: 25px;
      margin-left: 281px;
-     margin-top: 17px;
+     margin-top: 35px;
    
    }
    main article .primeiro .titulomenor{
       font-family: 'Times New Roman', Times, serif;
       color: white;
-      font-size: 16px;
+      font-size: 22px;
       width: 350px;
-      height: 22px;
+      height: 31px;
     margin-left: 8px;
    margin-top: 20px;
    text-align: center;
@@ -115,14 +115,12 @@ main article img{
    }
    main article .lista{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size: 20px;
+      font-size: 19px;
       margin-top: 14px;
       margin-left: 23px;
       color: white;
    }
-   
-   
-  .segundo{
+   .segundo{
       width: 365px;
       height: 474px;
       padding: 10px;
@@ -153,26 +151,35 @@ main article img{
   }
   main article .segundo p{
       font-size: 17px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       text-align: left;
-      padding-left: 10px;
-      margin-top: 10px;
+      margin-top: 16px;
+      margin-left: 13px;
+      color: white;
   }
   main article .segundo .botao{
       width: 77px;
       height: 25px;
      margin-left: 281px;
-     margin-top: 75px;
+     margin-top: 15px;
    }
    main article .segundo .titulomenor{
       font-family: 'Times New Roman', Times, serif;
       color: white;
-      font-size: 16px;
+      font-size: 22px;
       width: 350px;
-      height: 22px;
+      height: 31px;
     margin-left: 8px;
    margin-top: 20px;
    text-align: center;
     background-color: black;
+   }
+   main article .listasegundo{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 19px;
+      margin-top: 14px;
+      margin-left: 28px;
+      color: white;
    }
    
   aside{
@@ -194,7 +201,7 @@ main article img{
        font-size:18px;
        border:none;
        height: 32px;
-       width: 349px;     
+       width: 349px;    
       }
       aside .caixabranca{
      width: 338px;
@@ -216,9 +223,41 @@ main article img{
     background-color: black;
   }
   aside .listamaior{
-    font-size: 25px;
-    margin-left: 5px;
-    margin top: 5px;
+    font-size: 20px;
+    margin-left: 31px;
+    padding-left: 4px;
+    margin-top: 5px;
+    color: black;
+   
+  }
+  aside li{
+      padding: 5px;
+  }
+  aside .assembleia{
+      width: 169px;
+      height: 143px;
+      margin-top: 22px;
+      margin-left: 9px;
+  }
+  aside .bastilha{
+      width: 170px;
+      height: 143px;
+      margin-top: -145px;
+      margin-left: 188px;
+      float: left;
+  }
+  aside .declaracao{
+      width: 171px;
+      height: 237px;
+      margin-top: 19px;
+      margin-left: 9px;
+  }
+  aside .feudalismo{
+      width: 171px;
+      height: 237px;
+      margin-top: -241px;
+      margin-left: 188px;
+      float: left;
   }
    
        
@@ -228,6 +267,5 @@ main article img{
           height: 500px;
           display: block;
           float: left;
-          background-color:rgb(241, 0, 80) ;
+          background-color:rgb(241, 0, 80);
   }
-  
